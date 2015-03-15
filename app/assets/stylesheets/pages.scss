@@ -1,3 +1,53 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.header {
+	background: white;
+	padding: 20px 0 20px 0;
+}
+.header li{
+	display:inline;
+	list-style:none;
+	padding: 0 5px 0 5px;
+}
+.home .jumbotron {
+	background: image-url('home-img.jpg') center center;
+	background-size: cover;
+	min-height: 600px;
+	color: white;
+	width: 100%;
+}
+.right{ 
+	float:right; 
+	clear: both;
+}
+.main h2{
+	font-size: 48px;
+	line-height: 56px;
+	text-align: right;
+}
+.footer li {
+	display:inline;
+	list-style:none;
+	padding: 0 5px 0 5px;
+}
+a.btn {
+	background: #000;
+	color: #fff;
+	text-decoration:none;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 60px;
+	margin: 40px 0;
+	padding: 0;
+	height: 60px;
+	width: 200px;
+	transition: background-color.5s;
+
+}
+.highlight {
+	background: #fff;
+	color: #000;
+
+}
