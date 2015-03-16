@@ -4,7 +4,15 @@
 
 .header {
 	background: white;
-	padding: 20px 0 20px 0;
+	padding: 10px 0 0 0;
+}
+.header a {
+	color: #000;
+
+}
+.header a:hover{
+	text-decoration: none;
+	color: gray;
 }
 .header h3{
 	font-size: 18px;
@@ -28,10 +36,18 @@
 	float:right; 
 	clear: both;
 }
+.main {
+	width:100%;
+	padding: 50px 0 0 0;
+}
 .main h2{
 	font-size: 48px;
 	line-height: 56px;
 	text-align: right;
+}
+.footer {
+	width: 100%;
+	padding: 10px 0 15px 0;
 }
 .footer li {
 	display:inline;
@@ -59,3 +75,8 @@ a.btn {
 	padding: 0 5px 0 5px;
 
 }
+
+.banner { position: relative; overflow: auto; }
+.banner ul {padding: 0; list-style: none;}
+.banner ul li { float: left; }
+.banner img { width: 100%;}
